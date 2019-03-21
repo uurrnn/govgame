@@ -1,8 +1,10 @@
 import { h } from "preact";
 
+import CharacterCreation from "../CharacterCreation/CharacterCreation";
+
 const Game = () => (
     <main className="game">
-        <p>Hello World</p>
+        <CharacterCreation />
     </main>
 );
 
