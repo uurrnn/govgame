@@ -1,18 +1,22 @@
 import { h, render } from "preact";
 
+import Game from "./components/Game/Game";
+import Welcome from "./components/Welcome/Welcome";
+
 import "./app.scss";
 
 let root;
 
 const App = () => (
-    <div className="game">
-        <h1>hello world</h1>
+    <div>
+        <Game />
+        <Welcome />
     </div>
 );
 
-function init() {
+const init = () => {
     root = render(<App />, document.body, root);
-}
+};
 
 // in development, set up HMR:
 if (module.hot) {

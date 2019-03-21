@@ -1,8 +1,4 @@
-body {
-    background: #111;
-}
+@import "variables";
+@import "utilities";
 
-.game {
-    color: white;
-    font-family: Impact;
-}
+@import "components/Game/Game";
