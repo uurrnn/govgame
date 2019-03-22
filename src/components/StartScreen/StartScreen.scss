@@ -1,0 +1,18 @@
+.startScreen {
+    h1 {
+        font-size: 5rem;
+        color: $offwhite;
+        top: 30px;
+        left: 50px;
+        position: relative;
+        text-shadow: 3px 9px 0 rgba($slate, 0.4);
+    }
+    menu {
+        position: absolute;
+        bottom: 30px;
+        left: 20px;
+    }
+    button {
+        margin-bottom: 25px;
+    }
+}

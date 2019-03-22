@@ -19,6 +19,14 @@ $green: green;
 $libertarian: yellow;
 
 //fonts
+$ubuntu: "Ubuntu Mono", monospace;
 $sans: Tahoma;
 $serif: Georgia;
-$mono: Consolas;
+$mono: $ubuntu;
+
+//backgrounds
+$greydient: radial-gradient(
+    circle farthest-corner at -5% -10%,
+    rgba(74, 98, 110, 1) -25%,
+    rgba(30, 33, 48, 1) 125%
+);

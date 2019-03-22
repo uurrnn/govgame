@@ -1,10 +1,18 @@
 .game {
-    background: #333;
+    background: $greydient;
+    border: 1px solid $black;
 
     width: 720px;
     height: 480px;
 
     margin-top: 50px;
+    margin-bottom: 25px;
     padding: 5px;
-    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 15px 0 $slate;
+
+    > div {
+        height: 100%;
+        opacity: 0.9; // for aesthetic purposes :P
+        position: relative;
+    }
 }

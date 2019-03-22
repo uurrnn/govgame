@@ -1,10 +1,10 @@
 import { h } from "preact";
 
-import CharacterCreation from "../CharacterCreation/CharacterCreation";
+import StartScreen from "../StartScreen/StartScreen";
 
 const Game = () => (
     <main className="game">
-        <CharacterCreation />
+        <StartScreen />
     </main>
 );
 
