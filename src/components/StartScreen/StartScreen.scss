@@ -1,5 +1,13 @@
 .startScreen {
+    img {
+        position: absolute;
+        right: -100px;
+        transform: scale(2);
+        opacity: 0.15;
+        mask-image: radial-gradient(circle at 50%, black 0%, transparent 45%);
+    }
     h1 {
+        z-index: 2;
         font-size: 5rem;
         color: $offwhite;
         top: 30px;
